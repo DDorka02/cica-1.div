@@ -111,6 +111,32 @@ p{
 }
 
 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.negyedik{
+    background-color: black;
+    border-left: 1px solid white;
+    padding: 10px;
+}
+.kepek2{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+}
+
+h2{
     font-family:Arial, Helvetica, sans-serif;
     color:white;
     text-align: center;
@@ -121,4 +147,16 @@ h2{
 li{
     font-family:Arial, Helvetica, sans-serif;
     color:white;
+}
+
+.otodik{
+    background-color: black;
+    border-left: 1px solid white;
+    padding: 10px;
+}
+
+.hatodik{
+    background-color: black;
+    border-left: 1px solid white;
+    padding: 10px;
 }
