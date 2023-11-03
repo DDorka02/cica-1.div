@@ -1,8 +1,21 @@
+.tarolo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 0px;
+    color:black;
+    border-top: 1px solid white;
+    background-color: black;
+
+
+}
 .fejlec{
     background-image: url("hero.jpg");
     height: 100vh;
     background-size: cover;
-    padding: 0px;
+    padding: 5px;
+    color: black;
+    margin: auto;
 }
 .tarolo{
     margin:auto;
@@ -11,14 +24,15 @@
 
 .menu ul{
     list-style-type: none;
-    padding: 15px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 20px;
+    gap: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
+
 
 .menu a{
     text-decoration: none;
@@ -30,6 +44,9 @@
     background-color: orange;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    border-radius: 30px;
+    
 }
 
 h1{
@@ -42,10 +59,13 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     color:white;
     text-align: center;
-    font-size: 11px;
 }
 
-.gomb {
+ul{
+    padding-left: 80px;
+    
+}
+.gomb{
     width: 200px;
     margin: auto;
     background-color: orange;
@@ -53,11 +73,12 @@ p{
     list-style-type: none;
     padding: 15px;
     border: 20px;
-    
+    border-radius: 30px;
+    text-align: center;
 }
 
 .menu li:hover {
-    background-color: rgb(238, 197, 197);
+    background-color:bisque;;
 }
 .menu a:hover{
     background-color: bisque;
@@ -71,13 +92,14 @@ p{
 
 .menu2 ul{
     list-style-type: none;
-    padding: 15px;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     border: 20px;
-
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
 }
 
 .menu2 a{
@@ -91,11 +113,12 @@ p{
     border-radius: 10px;
 }
 .menu2 li:hover {
-    background-color: rgb(238, 197, 197);
+    background-color:bisque;
 }
 .menu2 a:hover{
     background-color: bisque;
 }
+
 
 .harmadik{
     background-color: black;
@@ -103,11 +126,21 @@ p{
     padding: 10px;
 }
 .kepek{
-    padding: 15px;
+    padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100% 100%;
+    grid-template-rows: auto;
     gap: 15px;
-
+    border: 30px;
+    padding-right: 50%;
+    padding-left: 50px;
+}
+.pic img{
+    width: 100%;
+    border-radius: 5%;
+}
+.pic{
+    overflow: hidden;
 }
 
 h2{
@@ -128,13 +161,7 @@ li{
     border-left: 1px solid white;
     padding: 10px;
 }
-.kepek2{
-    padding: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
 
-}
 
 h2{
     font-family:Arial, Helvetica, sans-serif;
@@ -142,11 +169,6 @@ h2{
     text-align: center;
     font-size: 14px;
 
-}
-
-li{
-    font-family:Arial, Helvetica, sans-serif;
-    color:white;
 }
 
 .otodik{
@@ -160,3 +182,45 @@ li{
     border-left: 1px solid white;
     padding: 10px;
 }
+.macska{
+    text-align: center;
+    border: 30px;
+    padding-right: 50%;
+    padding-left: 50px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+}
+.erdekel{
+    width: 200px;
+    margin: auto;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 15px;
+    border: 20px;
+    border-radius: 30px;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.tipp{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-template-rows: auto;
+    gap: 30px;
+    border: 30px;
+    padding-right: 50%;
+    padding-left: 50px;}
+
+.esemeny{
+    display: grid;
+    grid-template-columns: 150% 150%;
+    grid-template-rows: auto;
+    gap: 30px;
+    padding-right: 50%;
+    padding-left: 50px;
+}    
